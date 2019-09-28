@@ -28,12 +28,15 @@ echo "Program dcm2niiix job finished with exit code $? at `date`"
 ```
 
 **_$DCM2NIIXROOT_** →  directory of  dcm2niix installation 
+
 i.e.) `/home/mukhan/dcm2niix/build/bin/dcm2niix`
 
 **_$PROJECTDIR_** →  directory  of the project  containing subject folders 
+
 i.e.) `/home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/`
 
 **_$SUBJECTDIR_** →  specific subject directory containing unsorted/sorted DCM files
+
 i.e.) `CAL001_420523_V1`
 
 _Note_: **$PROJECTDIR** + **$SUBJECTDIR**  define the directory that should be sorted. In my template, a project folder will contain a list of subject folders. That is why the template is structured as above, but can be modified as desired.
