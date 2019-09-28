@@ -20,7 +20,7 @@ echo "Starting run at: `date`"
 
 #  -m y => merge 2D slices from same series regardless of study time, echo, coil, orientation, etc. (y/n, default n)
 #  -f (%n_%p_%s) => patientName_protocol_seriesNumber
-$DCM2NIIXROOT $PROJECTDIR/$SUBJECTDIR -m y -f %n_%p_%s $PROJECTDIR/$SUBJECTDIR
+$DCM2NIIXROOT -m y -f %n_%p_%s $PROJECTDIR/$SUBJECTDIR
 
 wait
 
@@ -56,7 +56,7 @@ echo "Running on hostname `hostname`"
 
 echo "Starting run at: `date`"
 
-/home/mukhan/dcm2niix/build/bin/dcm2niix /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1 -m y -f %n_%p_%s /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1
+/home/mukhan/dcm2niix/build/bin/dcm2niix -m y -f %n_%p_%s /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1
 
 wait
 

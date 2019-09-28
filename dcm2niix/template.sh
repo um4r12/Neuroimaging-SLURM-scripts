@@ -23,7 +23,7 @@ echo "Starting run at: `date`"
 #### -m y => merge 2D slices from same series regardless of study time, echo, coil, orientation, etc. (y/n, default n)
 ####  -f (%n_%p_%s) => nifti filename => patientName_protocol_seriesNumber ; for a full specification of dicom header tags, refer to `man dcm2niix` or https://www.dicomlibrary.com/dicom/dicom-tags/
 
-$DCM2NIIXROOT $PROJECTDIR/$SUBJECTDIR -m y -f %n_%p_%s $PROJECTDIR/$SUBJECTDIR
+$DCM2NIIXROOT -m y -f %n_%p_%s $PROJECTDIR/$SUBJECTDIR
 
 wait
 

@@ -11,7 +11,7 @@ echo "Running on hostname `hostname`"
 
 echo "Starting run at: `date`"
 
-/home/mukhan/dcm2niix/build/bin/dcm2niix /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1 -m y -f %n_%p_%s /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1
+/home/mukhan/dcm2niix/build/bin/dcm2niix -m y -f %n_%p_%s /home/mukhan/scratch/pipelines/dcm2niix/projects/CALSNIC_2_V1/inputFiles/CAL/Extracted/CAL001_420523_V1
 
 wait
 
