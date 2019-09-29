@@ -3,7 +3,9 @@
 Some neuroimaging slurm scripts and templates that I have generated/accumulated over time
 
 Each directory contains:
+	
 	1. `sample.sh` - an example of the SLURM job for the neuroimaging pipeline
+	
 	2. `template.sh` - an template that can be used to generate 
 ### Other useful neuroimaging and SLURM repos/guides/tutorials
 
@@ -13,4 +15,4 @@ Each directory contains:
 
 ### License
 
-MIT Â ©Muhammad Umer Kha
+MIT Ã‚ Â©Muhammad Umer Kha
