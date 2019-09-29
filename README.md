@@ -15,4 +15,4 @@ Each directory contains:
 
 ### License
 
-MIT ©Muhammad Umer Kha
+MIT © Muhammad Umer Kha
